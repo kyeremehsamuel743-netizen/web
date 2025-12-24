@@ -1,0 +1,584 @@
+h1{
+    color: #8000ff;
+    text-align: center;
+    text-decoration: dashed;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    transform: scale(1.4);
+ 
+}
+    
+body{
+    background-color: black;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+hr{
+    width: 70%;
+    border-top: 4px dotted #8000ff;
+    border-style: none none dotted;
+    
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a img{
+    width: 100%;
+    max-width: 230px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+     margin-left: 15px;
+}
+
+a img:hover{
+    transform: scale(1.4);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    color: white;
+    text-align: center;
+}
+
+.container figure{
+    width: 280px;
+    margin:0;    
+
+}
+figcaption{
+    text-align: center;
+}
+
+
+
+
+/*this is bmw page css codes*/
+
+.bmw{
+    transform: scale(1.0); 
+    color: black;
+    font-size: 50px;
+
+}
+
+.hr2{
+    width: 90%;
+    font-size: 40px;
+}
+
+.bmwbody{
+    background: #d3e0e6;
+background: linear-gradient(90deg, rgba(211, 224, 230, 1) 0%, rgba(250, 162, 162, 1) 31%, rgba(145, 157, 250, 1) 61%, rgba(145, 157, 250, 1) 71%, rgba(68, 97, 242, 1) 100%);
+
+    
+    
+}
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.bmwcard{
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+.card-content{
+    padding: 20px;
+
+}
+.card-content h2{
+    color: #0078c2;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.card-content p{
+    color:#887474;
+    line-height: 1.5;
+    }
+    @media screen and (max-width:800px){
+        .card-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+     @media screen and (max-width:600px){
+        .card-container{
+            grid-template-columns:1fr;
+        }
+    }
+     
+
+
+
+
+
+
+/*this is benz page css codes*/
+
+.hr3{
+    width: 90%;
+}
+
+.benzbody{
+    background: #2A7B9B;
+background: linear-gradient(176deg, rgba(42, 123, 155, 1) 17%, rgba(102, 242, 158, 1) 50%, rgba(118, 97, 255, 1) 90%);
+}
+
+.benz{
+    color: black;
+}
+
+
+
+/*this is ford page css codes*/
+
+.fordbody{
+    background-color: rgb(133, 247, 253);
+}
+
+.ford{
+    color: rgb(59, 59, 231);
+}
+.hr4{
+    width: 90%;
+}
+
+
+
+
+/*this is ferrari page css codes*/
+
+
+.ferraribody{
+    background: #ffffff;
+background: linear-gradient(116deg, rgba(255, 255, 255, 1) 0%, rgba(255, 110, 110, 1) 91%);
+}
+.hr5{
+    width: 90%;
+}
+
+.ferrari{
+    color: red;
+}
+
+
+
+/*this is lamborghini page css codes*/
+
+.lamborghinibody{
+    background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(35, 91, 99, 1) 100%);
+}
+
+.lamborghini{
+    color: yellow;
+}
+
+.hr6{
+    width: 90%;
+}
+
+
+
+/*this is bugatti page css codes*/
+
+
+.bugattibody{
+background: #730FFF;
+background: linear-gradient(0deg, rgba(115, 15, 255, 1) 0%, rgba(34, 193, 195, 1) 100%);
+}
+
+.bugatti{
+    color: burlywood;
+
+}
+
+.hr7{
+    width: 90%;
+
+}
+
+
+/*this is keonigsegg page css codes*/
+
+
+.keonigseggbody{
+    background: #8b0fff;
+background: linear-gradient(273deg, rgba(139, 15, 255, 1) 0%, rgba(34, 157, 195, 1) 100%);
+}
+
+.keonigsegg{
+    color: lime;
+}
+
+.hr8{
+    width: 90%;
+}
+
+
+/*this is rolls royce page css codes*/
+
+
+.rollsbody{
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.rolls{
+    color: black;
+}
+
+.hr9{
+    width: 90%;
+}
+
+/*this is audi page css codes*/
+
+
+.audibody{
+    background: #bbb6fa;
+background: linear-gradient(90deg, rgba(187, 182, 250, 1) 0%, rgba(79, 79, 255, 1) 50%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.audi{
+    color: brown;
+}
+
+.hr10{
+    width: 90%;
+}
+.porschebody{
+background: #42b5e3;
+background: linear-gradient(79deg, rgba(66, 181, 227, 0.87) 0%, rgba(234, 201, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+.astonbody{
+     background: #dedeff;
+background: linear-gradient(0deg, rgba(222, 222, 255, 1) 0%, rgba(162, 162, 224, 1) 50%, rgba(120, 232, 255, 1) 100%);
+
+
+}
+
+.maclarenbody{
+    background: #ffdb9c;
+background: linear-gradient(332deg, rgba(255, 219, 156, 1) 0%, rgba(234, 201, 255, 1) 50%, rgba(125, 205, 255, 1) 100%);
+}
+
+.nissanbody{
+    background: #69bfe0;
+background: radial-gradient(circle, rgba(105, 191, 224, 1) 0%, rgba(141, 235, 180, 1) 100%, rgba(41, 16, 16, 1) 100%);
+}
+
+.dodgebody{
+     background: #2790ba;
+background: linear-gradient(94deg, rgba(39, 144, 186, 1) 17%, rgba(143, 255, 188, 1) 56%, rgba(125, 107, 242, 1) 90%);
+}
+
+.gmcbody{
+    background: #d8d4fa;
+background: linear-gradient(8deg, rgba(216, 212, 250, 1) 0%, rgba(61, 71, 255, 1) 45%, rgba(61, 71, 255, 1) 45%, rgba(105, 230, 255, 1) 100%);
+}
+
+.corvettebody{
+    background: #00b7ff;
+background: linear-gradient(90deg, rgba(0, 183, 255, 1) 0%, rgba(171, 255, 209, 1) 50%, rgba(255, 241, 92, 1) 100%);
+}
+
+.escaladebody{
+    background: #50bfeb;
+background: linear-gradient(345deg, rgba(80, 191, 235, 1) 17%, rgba(171, 255, 205, 1) 56%, rgba(127, 112, 224, 1) 90%);
+}
+
+.cheveroletbody{
+    background: #00b7ff;
+background: linear-gradient(114deg, rgba(0, 183, 255, 1) 0%, rgba(171, 255, 209, 1) 50%, rgba(255, 241, 92, 1) 100%);
+}
+
+.toyotabody{
+    background: #788eff;
+background: radial-gradient(circle, rgba(120, 142, 255, 1) 0%, rgba(255, 150, 171, 1) 100%);
+}
+
+.lexusbody{
+    background: #3d35b5;
+background: linear-gradient(90deg, rgba(61, 53, 181, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.alfaromeobody{
+    background: #26c2c7;
+background: linear-gradient(343deg, rgba(38, 194, 199, 1) 0%, rgba(49, 196, 179, 1) 61%, rgba(135, 68, 201, 0.94) 100%);
+}
+
+.hondabody{
+background: #00D4FF;
+background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.jeepbody{
+    background: #8744c9;
+background: linear-gradient(90deg, rgba(135, 68, 201, 0.67) 0%, rgba(64, 196, 49, 0.72) 35%, rgba(32, 174, 179, 0.62) 100%);
+}
+
+.mistibushibody{
+    background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(247, 247, 247, 1) 100%);
+}
+
+.rambody{
+    background: #00D4FF;
+background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(0, 212, 255, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.volkswagenbody{
+    background: #9fb823;
+background: linear-gradient(90deg, rgba(159, 184, 35, 0.67) 0%, rgba(157, 196, 49, 0.72) 35%, rgba(159, 179, 32, 0.62) 100%);
+}
+
+.rangeroverbody{
+    background: #0c3838;
+background: linear-gradient(0deg, rgba(12, 56, 56, 1) 0%, rgba(247, 247, 247, 1) 100%);
+}
+
+.volvobody{
+    background: #4087a3;
+background: linear-gradient(90deg, rgba(64, 135, 163, 1) 0%, rgba(31, 77, 49, 1) 100%, rgba(21, 133, 62, 1) 72%, rgba(237, 221, 83, 1) 100%);
+}
+
+.lincolnbody{
+    background: #020024;
+background: linear-gradient(351deg, rgba(2, 0, 36, 1) 0%, rgba(106, 106, 156, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.opelbody{
+    background: #2f24ff;
+background: linear-gradient(351deg, rgba(47, 36, 255, 1) 0%, rgba(244, 255, 184, 1) 35%, rgba(51, 221, 255, 1) 100%);
+}
+
+
+
+#background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+    .Bolide {
+    background: #111;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+    background: #222;
+    margin: 20px;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 30%, rgba(0,0,0,0) 80%);
+}
+
+.card-header {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 8px 18px;
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-align: left;
+    width: fit-content;
+    transition: background 0.2s;
+}
+
+.learn-more:hover {
+    background: rgba(255,255,255,0.35);
+}
+
+
+
+
+
+
+/*section*/
+
+.first-section {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 10; /* Above the video */
+  background: rgba(0, 0, 0, 0.3); /* semi-transparent background */
+  padding: 1rem;
+  color: white;
+}
+
+/* Example styling for nav links */
+.sticky-navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.sticky-navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.other-section {
+  padding: 4rem 2rem;
+  background: #f5f5f5;
+  color: #333;
+  min-height: 100vh; /* Full viewport height for each section */
+}
+
+/* Optional: keep consistent font styling */
+.other-section h2 {
+  margin-bottom: 1rem;
+}
+
+#section2{
+    background-color: #f1ea534b;
+}
+
+#section3{
+    background-color: rgb(239, 180, 103);
+}
+
+
+#section4{
+    background-color: black;
+}
+
+
+
+.porschebody{
+    background-color: white;
+
+}
+
+.first-word-uppercase-p::first-letter {
+  font-size: 60px;
+  color: #0256e8;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+

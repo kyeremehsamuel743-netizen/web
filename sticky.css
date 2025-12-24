@@ -1,0 +1,72 @@
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  nav a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Highlight the link when section is targeted */
+  nav a[href="#section1"]:target,
+  nav a[href="#section2"]:target,
+  nav a[href="#section3"]:target,
+  nav a[href="#section3"]:target {
+    background-color: #04AA6D;
+    font-weight: bold;
+  }
+
+  /* Sections styles */
+  section {
+    height: 100vh;
+    scroll-margin-top: 60px; /* offset for sticky navbar */
+    padding: 40px;
+  }
+
+  #section1 { background: #8000ff;}
+  #section2 { background: #ccc; }
+  #section3 { background: #999; }
+  #section4 { background: #453c3c; }
+  
+
+
+  /* Default highlight for first link on page load 
+  nav a:first-child {
+    background-color: #04AA6D;
+    font-weight: bold;
+  } 
+*/
+
+nav a:hover{
+  background-color: rgb(131, 135, 159);
+}
+
+#section1{
+  background-color: #04AA6D;
+}
+h2{
+  margin: 100px auto;
+  width: 360px;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+
+
+  

@@ -1,0 +1,168 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+/* Sticky Navbar */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.881);
+  z-index: 100;
+  padding: 1rem 0;
+}
+
+.sticky-navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;  /* Center the navbar items */
+  gap: 2rem;
+}
+
+.sticky-navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.sticky-navbar a:hover {
+  color: #f0a500;
+}
+
+/* Each section basic styles */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+/* First section with background video */
+.first-section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Centered text above video */
+.center-text {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  font-family: playwrite-cc-cu, sans-serif;
+font-style: normal;
+font-weight: 100;
+
+}
+
+/* Footer styling */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+
+
+
+
+a img{
+    width: 100%;
+    max-width: 230px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+     margin-left: 15px;
+}
+
+a img:hover{
+    transform: scale(1.4);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    color: white;
+    text-align: center;
+}
+
+.container figure{
+    width: 280px;
+    margin:0;    
+
+}
+figcaption{
+    text-align: center;
+}
+
+
+#section2 {
+  background: #22c3a3;
+background: linear-gradient(0deg, rgba(34, 195, 163, 1) 0%, rgba(138, 227, 226, 1) 52%, rgba(45, 118, 253, 1) 100%);
+}
+
+#section3 {
+  background: #f1adf7;
+background: linear-gradient(0deg, rgba(241, 173, 247, 1) 0%, rgba(135, 255, 253, 1) 24%, rgba(116, 192, 196, 1) 46%, rgba(34, 193, 195, 1) 100%);
+}
+
+#section4 {
+  background-color: #6a0572; /* Deep purple */
+}
+.sec3{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+figcaption{
+    color: black;
+}
+
+.hrse3{
+    width:50%;
+
+}
+
+
+.sec2{
+  font-size: 70px;
+  
+}
+.p1{
+  font-size: 22px;
+  
+}
+
+#section4{
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
